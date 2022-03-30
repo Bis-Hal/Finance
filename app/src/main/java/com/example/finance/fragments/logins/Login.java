@@ -19,7 +19,6 @@ import android.widget.Toast;
 
 import com.example.finance.HomePage;
 import com.example.finance.R;
-import com.example.finance.database.Connection;
 import com.example.finance.validation.LoginValidation;
 import com.google.android.material.card.MaterialCardView;
 
@@ -41,7 +40,7 @@ public class Login extends Fragment {
 
         show = view.findViewById(R.id.show);
         hide = view.findViewById(R.id.hide);
-        Connection connection = new Connection(getContext());
+
 
 
 

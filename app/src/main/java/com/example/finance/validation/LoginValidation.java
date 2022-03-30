@@ -6,15 +6,14 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.example.finance.R;
-import com.example.finance.database.Connection;
-import com.example.finance.database.LoginDatabaseOperations;
+
 
 public class LoginValidation {
     private TextView validationMsg;
     private EditText passwordInput, usernameInput;
     private View view;
     private  String un, pwd;
-    private Connection connection;
+
     private Context context;
 
     private String validUsername = "Admin";
@@ -27,7 +26,7 @@ public class LoginValidation {
 
 
     public Boolean validation(){
-        connection = new Connection(context);
+
         usernameInput = view.findViewById(R.id.usernameInput);
         passwordInput = view.findViewById(R.id.passwordInput);
         validationMsg = view.findViewById(R.id.validationMsg);
@@ -43,11 +42,7 @@ public class LoginValidation {
             validationMsg.setVisibility(View.GONE);
             return true;
         }
-//        if(loginDatabaseOperations.fetchUser()){
-//            return  true;
-//        }
         else if(un.equals("") || pwd.equals(" ")){
-
             errorMsgDisplay(R.string.empty_fields);
             return false;
         }
