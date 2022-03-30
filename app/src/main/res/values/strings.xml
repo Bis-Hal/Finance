@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Finance</string>
+    <string name="logo">Logo Image</string>
+    <string name="company_name">Sachet Saving and Credit Coorperative Ltd</string>
+    <string name="company_name_short_form">SSCCL</string>
+    <string name="company_slogon">सचेत बनाै बचत गराै</string>
+    <string name="company_slogon_part1">सचेत बनाै</string>
+    <string name="company_slogon_part2">बचत गराै</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="signin">Sign In</string>
+    <string name="validation_msg">Validation Message</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="empty_fields">Fields cannot be empty</string>
+    <string name="invalid">Invalid Username or Password</string>
+    <string name="failed">Log in Failed</string>
+    <string name = "logged_out">Logged Out</string>
+    <string name="pin">Pin code</string>
+
+    <string name="options">Options</string>
+    <string name="daily_saving">Daily Saving</string>
+    <string name="bal_bachat">Bal Bachat</string>
+    <string name="jestha_nagarik_bachat">Jestha Nagarik Bachat</string>
+    <string name="special_saving">Special Saving</string>
+    <string name="bank">Bank</string>
+
+
+    <string name="serial_no">1.</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="call_btn">Call Button</string>
+    <string name="acc_no">Account Number</string>
+
+    <string name="active_customers">Active</string>
+    <string name="all_customers">Customers</string>
+
+    <string name="add_customer">Add Customer Detail</string>
+    <string name="address">Address</string>
+    <string name="contact">Contact</string>
+    <string name="account_type">Account Type</string>
+    <string name="interest_rate">Interest Rate</string>
+
+    <string name="deposit">Deposit</string>
+    <string name="history">History</string>
+    <string name="about">About</string>
+
+    <string name="cash">Cash</string>
+    <string name="cheque_deposit">Cheque</string>
+    <string name="cheque_issued">Cheque Issue</string>
+    <string name="voucher_deposit">Voucher</string>
+    <string name="voucher_issue">Voucher Issue</string>
+
+    <string name="cheque_no">Cheque N.o.</string>
+    <string name="drawee_bank">Drawee Bank</string>
+
+    <string name="opening_bal">Opening Balance</string>
+    <string name="date">Date</string>
+
+    <string name="customer_details">Customer Details</string>
+
+</resources>
