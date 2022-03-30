@@ -38,17 +38,17 @@ public class LoginDatabaseOperations {
         }
     }
 
-//    public boolean fetchUser(){
-//        SQLiteDatabase sqLiteDatabase = connection.getReadableDatabase();
-//        String sql = "SELECT * FROM " + Connection.TABLE_USERS + " WHERE " + Connection.COLUMN_USERNAME + " = '" + username + "' AND " + Connection.COLUMN_PASSWORD + " = '" + password + "'";
-//        Cursor cursor = sqLiteDatabase.rawQuery(sql, null);
-//        connection.close();
-//        if(cursor!=null){
-//            return true;
-//        }
-//        else{
-//            return false;
-//        }
-//
-//    }
+    public boolean fetchUser(){
+        SQLiteDatabase sqLiteDatabase = connection.getReadableDatabase();
+        String sql = "SELECT * FROM " + Connection.TABLE_USERS + " WHERE " + Connection.COLUMN_USERNAME + " = '" + username + "' AND " + Connection.COLUMN_PASSWORD + " = '" + password + "'";
+        Cursor cursor = sqLiteDatabase.rawQuery(sql, null);
+        connection.close();
+        if(cursor!=null){
+            return true;
+        }
+        else{
+            return false;
+        }
+
+    }
 }
